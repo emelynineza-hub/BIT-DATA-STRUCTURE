@@ -38,7 +38,7 @@ Procedure: Created a list of daily laptop intake counts for 7 days
   - Calculated total values across records
 - VS Code Features: Dictionary value inspection during debugging
 
-*Key VS Code Procedures Used
+Key VS Code Procedures Used
 
 1. Debugging: Set breakpoints at each section to verify calculations
 2. Variable Inspection: Used debug panel to monitor data structure changes
@@ -46,7 +46,7 @@ Procedure: Created a list of daily laptop intake counts for 7 days
 4. Code Formatting: Used VS Code's auto-formatter for consistent style
 5. Error Checking: Utilized Python extension for syntax validation
 
-*Output Verification
+Output Verification
 The program produces:
 - Formatted report with statistics
 - Status message based on threshold
@@ -54,9 +54,7 @@ The program produces:
 - Array vs list sum verification
 - Updated dictionary records with total
 
-*Testing in VS Code
+Testing in VS Code
 - Ran the script using `Ctrl+F5` (Run without debugging)
 
-- Checked for any runtime errors or warnings
 
-This implementation demonstrates practical use of Python's core data structures in a real-world scenario while leveraging VS Code's development features for efficient coding and debugging.
