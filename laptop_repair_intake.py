@@ -1,20 +1,9 @@
 from array import array
-
-# -------------------------------
-# INTEGERS
-# -------------------------------
-# Sample daily laptop repair counts (for 7 days)
 daily_repairs = [10, 14, 9, 12, 11, 16, 13]
-
-# Calculations
 total_repairs = sum(daily_repairs)
 average_repairs = total_repairs / len(daily_repairs)
 min_repairs = min(daily_repairs)
 max_repairs = max(daily_repairs)
-
-# -------------------------------
-# STRINGS (Formatted Report)
-# -------------------------------
 print(f"Total laptops repaired this week: {total_repairs}")
 print(f"Average daily repairs: {average_repairs:.2f}")
 
@@ -25,9 +14,6 @@ report = (
 )
 print(report)
 
-# -------------------------------
-# BOOLEANS (Threshold check)
-# -------------------------------
 THRESHOLD = 12
 
 # Compound condition: average must be above threshold AND at least one day must have had >= 15
@@ -35,10 +21,6 @@ if average_repairs > THRESHOLD and max_repairs >= 15:
     print("Status: Above Standard")
 else:
     print("Status: Below Standard")
-
-# -------------------------------
-# LISTS (Models received)
-# -------------------------------
 laptop_models = ["Dell", "HP", "Lenovo", "Acer", "Asus"]
 print("\nOriginal laptop models list:", laptop_models)
 
@@ -52,18 +34,12 @@ if "Acer" in laptop_models:
 # Sort and display
 print("Modified and sorted laptop models list:", sorted(laptop_models))
 
-# -------------------------------
-# ARRAYS (Fixed-size intake subset)
-# -------------------------------
 repair_subset = array('i', daily_repairs[:5])
 array_sum = sum(repair_subset)
 
 print(f"\nSum of repairs (first 5 days using array): {array_sum}")
 print(f"Sum of full list repairs: {total_repairs}")
 
-# -------------------------------
-# DICTIONARIES (Repair records)
-# -------------------------------
 laptop_intake_records = [
     {"id": 1, "name": "Dell", "value": 4},
     {"id": 2, "name": "HP", "value": 3},
@@ -79,7 +55,7 @@ for record in laptop_intake_records:
 # Remove Lenovo record
 laptop_intake_records = [record for record in laptop_intake_records if record["name"] != "Lenovo"]
 
-# Compute total of 'value' fields
+# Compute total of value fields
 total_value = sum(record["value"] for record in laptop_intake_records)
 
 # Print updated records
@@ -88,3 +64,4 @@ for record in laptop_intake_records:
     print(record)
 
 print(f"\nTotal intake value across all records: {total_value}")
+
