@@ -1,5 +1,6 @@
 Explanation of How the Stack and Queue Questions Were Solved
-1. Stack Questions
+
+1**. Stack Questions**
 
 Practical (Irembo):
 
