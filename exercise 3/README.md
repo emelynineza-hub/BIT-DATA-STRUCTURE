@@ -29,6 +29,7 @@ Stacks keep data temporarily, focusing only on the latest step, simplifying the 
 This structure ensures controlled, step-by-step processing, essential for computing and logical workflows.
 
 2. Queue Questions
+   
 **Practical (Nyabugogo Bus Queue):**
 Initially, 7 buses queue in order: Bus 1 to Bus 7.
 After 5 buses depart (dequeued), the next bus in front is Bus 6.
